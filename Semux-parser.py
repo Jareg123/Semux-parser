@@ -24,7 +24,7 @@ while ir < 2:
         L = list(abc)
         spisok3.append(abc)
         b += 1
-        
+
     data = []
 
     for i in spisok3:
@@ -33,7 +33,7 @@ while ir < 2:
         summa.append(pobeda[1])
         data.append(pobeda2)
     ### ЗАПИСЬ В ФАИЛ ЕКСЕЛЬКУ###
-    with open('test.csv', 'w') as fp:
+    with open('top100.csv', 'w') as fp:
         writer = csv.writer(fp, delimiter=';')
         # writer.writerow(["your", "header", "foo"])  # write header
         writer.writerows(data)
@@ -50,11 +50,11 @@ while ir < 2:
     time = datetime.datetime.now()
     time = str(time)
     ### Записываем, как ебаный абориген в текст.###
-    f = open('jopa.txt','a')
+    f = open('SumDelegate.txt','a')
     jopa = str(jopa)
 
 
-    file = open('jopa.txt').read().splitlines()
+    file = open('SumDelegate.txt').read().splitlines()
     ###Математика 1 класс###
     bilo = int(file[-2][:8])
     stalo = int(file[-1][:8])
@@ -62,9 +62,6 @@ while ir < 2:
     print(file[-1][:8], file[-2][:8])
 
 
-    file = open('jopa.txt','a')
+    file = open('SumDelegate.txt','a')
     f.write(jopa  + ' '+ 'SEM ' + time + '  Lost\Arrived: ' + str(ostatok) + '.' + '\n')
     f.close()
-
-
-
