@@ -24,7 +24,7 @@ while ir < 2:
         L = list(abc)
         spisok3.append(abc)
         b += 1
-        print(b)
+        
     data = []
 
     for i in spisok3:
