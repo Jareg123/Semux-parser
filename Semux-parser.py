@@ -14,11 +14,17 @@ while ir < 2:
     price1 = soup.findAll('tr')
     priceone = price1[1].text
     summa = []
-
+    b = 0
     for i in price1[1:101]:
-        abc = i.text[3:][:32]
+
+        if b > 10:
+            abc = i.text[3:][:32]
+        else:
+            abc = i.text[2:][:32]
         L = list(abc)
         spisok3.append(abc)
+        b += 1
+        print(b)
     data = []
 
     for i in spisok3:
@@ -57,6 +63,8 @@ while ir < 2:
 
 
     file = open('jopa.txt','a')
-    f.write(jopa  + ' '+ 'SEM ' + time + '  lost\Arrived: ' + str(ostatok) + '.' + '\n')
+    f.write(jopa  + ' '+ 'SEM ' + time + '  Lost\Arrived: ' + str(ostatok) + '.' + '\n')
     f.close()
+
+
 
