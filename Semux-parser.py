@@ -57,6 +57,6 @@ while ir < 2:
 
 
     file = open('jopa.txt','a')
-    f.write(jopa  + ' '+ 'SEM ' + time + '  убыло\прибыло: ' + str(ostatok) + '.' + '\n')
+    f.write(jopa  + ' '+ 'SEM ' + time + '  lost\Arrived: ' + str(ostatok) + '.' + '\n')
     f.close()
 
