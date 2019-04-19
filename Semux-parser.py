@@ -63,5 +63,7 @@ while ir < 2:
 
 
     file = open('SumDelegate.txt','a')
-    f.write(jopa  + ' '+ 'SEM ' + time + '  Lost\Arrived: ' + str(ostatok) + '.' + '\n')
+    f.write(jopa  + ' '+ 'SEM ' + time + '  Top 100: Lost\Arrived: ' + str(ostatok) + '.' + '\n')
     f.close()
+
+
