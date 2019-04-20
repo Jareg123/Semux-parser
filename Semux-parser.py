@@ -49,7 +49,7 @@ while ir < 2:
     
     time = datetime.datetime.now()
     time = str(time)
-    ### Записываем, как ебаный абориген в текст.###
+    
     f = open('SumDelegate.txt','a')
     jopa = str(jopa)
 
