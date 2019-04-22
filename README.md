@@ -1,5 +1,9 @@
 # semux
 RUN Python 3.5.1
+
+Perhaps, if you run the code, there will be an error first. After the second time must pass. The code is shit, but for now, that's all I'm capable of.
+
+
 It collects the amount of tokens in the delegation. As well as how many each delegate.
 
 Creates 2 files, txt, and csv , with all the information
