@@ -1,4 +1,4 @@
-# semux-parser
+# Semux-parser
 RUN Python 3.5.1
 
 Perhaps, if you run the code, there will be an error first. After the second time must pass. The code is shit, but for now, that's all I'm capable of.
