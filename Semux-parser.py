@@ -43,7 +43,11 @@ while ir < 2:
 
 
     for i in summa:
-        b = int(i.replace(',', ''))
+
+        try:
+            b = int(i.replace(',', ''))
+        except:ValueError
+
         jopa += b
 
     time = datetime.datetime.now()
@@ -72,5 +76,5 @@ while ir < 2:
         pass
 
     file = open('SumDelegate2.txt','a')
-    f.write(jopa + ' ' + 'SEM ' + time + '  Top 100: Lost\Arrived: ' + str(Ostalos) + '.' + '\n')
+    f.write(jopa + '    ' + '   SEM ' + time + '  Top 100: Lost\Arrived: ' + str(Ostalos) + '.' + '\n')
     f.close()
