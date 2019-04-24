@@ -13,5 +13,4 @@ The file with the extension .exe when you first start you need to run 2 times. I
 The code is pretty curved, but useful.
 
 
-If it does not work, it is possible that the Delegate is changed to the Validator.
-But how it changes, everything will work.
+If this does not work, it is possible that the delegate is replaced by a validator at the moment. But how it changes, everything will work.
