@@ -46,6 +46,7 @@ while ir < 2:
 
         try:
             b = int(i.replace(',', ''))
+            b = int(i.replace('%', ''))
         except:ValueError
 
         jopa += b
@@ -76,5 +77,5 @@ while ir < 2:
         pass
 
     file = open('SumDelegate2.txt','a')
-    f.write(jopa + '    ' + '   SEM ' + time + '  Top 100: Lost\Arrived: ' + str(Ostalos) + '.' + '\n')
+    f.write(jopa + '  ' + ' SEM ' + time + '  Top 100: Lost\Arrived: ' + str(Ostalos) + '.' + '\n')
     f.close()
